@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="practice homepage for an e-commerce site">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Room homepage</title>
+
+<!-- Import fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+  </style>
+  <!-- Attribution styles -->
+  <style>
+    .attribution { display: none; font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="feature">
+    <nav class="navbar">
+        <button aria-label="menu" aria-expanded="false" aria-haspopup="true" aria-controls="menu" class="toggle-menu-btn">
+          <svg  class="hamburger" width="20" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z" fill="#FFF" fill-rule="evenodd"/></svg>
+          <svg  class="close-menu" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.364.222l1.414 1.414L9.414 8l6.364 6.364-1.414 1.414L8 9.414l-6.364 6.364-1.414-1.414L6.586 8 .222 1.636 1.636.222 8 6.586 14.364.222z" fill="#000" fill-rule="evenodd" opacity=".201"/></svg>
+          <span class="screen-reader" >Menu</span>
+        </button>
+        <div class="logo"><a href="#"><img src="images/logo.svg" alt="logo"></a></div>
+
+        <div class="nav_links">
+            <ul>
+                <li> <a class="nav_item" href="#">Home</a></li>
+                <li> <a class="nav_item" href="#">Shop</a></li>
+                <li> <a class="nav_item" href="#">About</a></li>
+                <li> <a class="nav_item" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="feature_image">   
+      <img src="" alt="white desk chairs with cutout back" class="feature_image-img">
+
+      <div class="feature_buttons">
+        <button aria-label="previous" id="prevBtn"><img src="images/icon-angle-left.svg" alt="left arrow"></button>
+        <button aria-label="next" id="nextBtn"><img src="images/icon-angle-right.svg" alt="right arrow"></button>
+      </div>
+    </div>
+
+    <div class="feature_content">      
+      <h1 class="feature_content-headline">Discover innovative ways to decorate</h1>
+      <p class="feature_content-text">We provide unmatched quality, comfort, and style for property owners across the country. 
+        Our experts combine form and function in bringing your vision to life. Create a room in your 
+        own style with our collection and make your property a reflection of you and what you love.
+      </p>
+      <a href="#" class="shop-link">Shop now<img class="shop-link-arrow" src="images/icon-arrow.svg" role="presentation"></a>
+    </div>
+  </header>
+
+
+  <main class="about" >
+    <img src="images/image-about-dark.jpg" alt="dark chairs and round table" class="about_img-1">
+    <div class="about_content">
+      <h2>About our furniture</h2>
+      <p class="about_text">Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.
+      </p>
+    </div>
+    <img src="images/image-about-light.jpg" alt="white chair" class="about_img-2">
+  </main>
+
+  <div class="attribution">
+    Challenge by <a rel="noreferrer" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js" ></script>
+  <script src="nav.js"></script>
+</body>
+</html>
