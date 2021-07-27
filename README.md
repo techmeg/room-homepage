@@ -62,6 +62,9 @@ I wasn't sure how to select the right crop of image when dynamically changing th
 
 The colors outlined in the styleguide resulted in poor color contrast that did not meet a11y requirements. I left them as is. I could not quite get the white space around the feature copy content to match the design without bad things happening during window resize, so I went with what worked responsively.
 
+## Useful Resources 
+[Easy Hamburger Menu]{https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0}
+
 
 ## Author
 
