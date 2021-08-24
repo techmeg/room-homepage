@@ -255,7 +255,8 @@ bottom: 0;
 right: 0;
 z-index: 10;
 img {
-  padding: 1rem;
+  height: 55px;
+  padding: 1.1rem;
   }
 }
 
@@ -308,18 +309,15 @@ img {
     grid-area: content;
     padding: 8% 10%;
   }
-
-}
-@media (min-width: 1100px) {
   .feature_buttons {
-    right: -145px;
-    width: 145px;
-  }
-  #prev-Btn {
-    margin-left: 1rem;
-  }
-  #next-Btn {
-    margin-right: 1rem;
+    max-width: 145px;
+    right: max(-10vw, -145px);
+    width: 10vw;
+    img {
+      height: 4.3vw;
+      max-height: 86px;
+      padding: .75rem;
+    }
   }
 }
 
